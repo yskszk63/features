@@ -40,7 +40,7 @@ install_using_apt() {
     export DEBIAN_FRONTEND=noninteractive
 
     apt-get update -y
-    apt-get -y install --no-install-recommends build-essential libreadline-dev zlib1g-dev flex bison libxml2-dev libxslt-dev libssl-dev libxml2-utils xsltproc ccache pkg-config libicu-dev
+    apt-get -y install --no-install-recommends libclang-dev build-essential libreadline-dev zlib1g-dev flex bison libxml2-dev libxslt-dev libssl-dev libxml2-utils xsltproc ccache pkg-config libicu-dev
     rm -rf /var/lib/apt/lists/*
 }
 
