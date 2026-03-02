@@ -1,0 +1,16 @@
+{
+  "with_user": {
+    "image": "mcr.microsoft.com/devcontainers/base:trixie",
+    "user": "vscode",
+    "features": {
+      "pgrx": {}
+    }
+  },
+  "with_version": {
+    "image": "mcr.microsoft.com/devcontainers/base:trixie",
+    "user": "vscode",
+    "features": {
+      "pgrx": "0.16.1"
+    }
+  }
+}

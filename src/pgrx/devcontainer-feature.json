@@ -1,0 +1,21 @@
+{
+  "name": "pgrx",
+  "id": "pgrx",
+  "version": "0.1.0",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest",
+        "0.16.1"
+      ],
+      "default": "latest"
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/rust:1"
+  ]
+}
